@@ -1,8 +1,8 @@
 
 .titulo-destaque{
-    padding: 50px 0 0 30px;
+    padding: 20px 0 20px 20px;
     background-color: #ff9847;
-    width: 60%;
+    /*width: 60%;*/
     color: white;
 }
 
@@ -21,8 +21,10 @@
 #main_nav {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: end;
     width: 40%;
+    margin-left: 200px;
+    margin-top: 10px;
 }
 #main_nav a {
     align-content: space-between;
@@ -37,6 +39,24 @@
     background-color: #ff9847;
 }
 
-.gl-img-container{
-padding: 10px 10px 30px 10px;
+
+#car_container
+{
+    display: grid;
+    justify-content: space-around;
+}
+#carouselExampleCaptions{
+    width: 800px;
+}
+
+#post-container{
+    padding-left: 10em;
+    width: 60%;
+}
+
+#arquivos-lateral{
+    margin-top: 2em;
+}
+#body-container{
+    margin-left: 5em;;
 }
