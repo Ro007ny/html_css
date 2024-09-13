@@ -1,0 +1,92 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    width: 500px; /* Define a largura do container */
+    margin: 20px auto; /* Centraliza o container na página */
+}
+
+#quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000; /* Cor vermelha */
+    border: 5px solid #000000; /* Borda preta */
+}
+
+#triangulo {
+    width: 0;
+    height: 0;
+
+    border-left: 50px solid #00FF00; /* Borda verde à esquerda */
+    border-right: 50px solid #00FF00; /* Borda verde à direita */
+    border-bottom: 100px solid transparent; /* Base transparente */
+}
+
+#circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFF00; /* Cor amarela */
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo */
+}
+
+#estrela {
+    width: 100px;
+    height: 100px;
+    position: relative; /* Posicionamento relativo para os pseudo-elementos */
+}
+
+#estrela:before,
+#estrela:after {
+    content: ''; /* Conteúdo vazio para os pseudo-elementos */
+    position: absolute; /* Posicionamento absoluto dentro do elemento principal */
+    top: 50%; /* Posiciona os pseudo-elementos no centro vertical */
+    left: 50%; /* Posiciona os pseudo-elementos no centro*/
+}
+
+#coracao {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000; /* Cor vermelha */
+    clip-path: polygon(50% 0%, 75% 50%, 50% 100%, 25% 50%); /* Define a forma do coração */
+}
+
+
+#ceu {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, #007bff 0%, #00C8FF 50%, #FFFFFF 100%); /* Gradiente de azul para branco */
+}
+
+#sol {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFF00; /* Cor amarela */
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo */
+    position: absolute; /* Posicionamento absoluto para sobrepor ao céu */
+    top: 25%; /* Posiciona o sol no topo */
+    left: 25%; /* Posiciona o sol à esquerda */
+}
+
+#seta-direita {
+    width: 80px;
+    height: 40px;
+    background-color: #007bff; /* Cor azul */
+    position: relative; /* Posicionamento relativo para os pseudo-elementos */
+}
+
+#seta-direita:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); /* Posiciona e centraliza verticalmente */
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; /* Borda esquerda transparente */
+    border-right: 40px solid #007bff; /* Borda direita azul */
+    border-top: 20px solid #007bff; /* Borda superior azul */
+    border-bottom: 20px solid transparent; /* Borda inferior transparente */
+}
+
+

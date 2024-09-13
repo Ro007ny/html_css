@@ -1,0 +1,36 @@
+body{
+    font-family: "Playwrite CU", cursive;
+    font-style: normal;
+}
+
+.playwrite-cu-teste {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner{
+    width: 300px;
+}
+#banner_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.banner_img{
+    border-radius: 30px;
+    width: 800px;
+}
+.card-size{
+    width: 20%;
+}
+#post-body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
